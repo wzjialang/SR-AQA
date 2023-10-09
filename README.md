@@ -2,7 +2,7 @@
 
 Official PyTorch implementation for "[Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography](https://doi.org/10.1007/978-3-031-43996-4_15)".
 
-[2023-10-09] The code of SR-AQA model is coming soon.
+[2023-10-09] Release the code of SR-AQA model.
 
 [2023-08-03] Release the SR-TEE dataset.
 
