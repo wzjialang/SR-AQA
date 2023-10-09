@@ -46,7 +46,7 @@ The SR-TEE dataset published in our paper could be downloaded [here](https://doi
 
 - Simple example of dependency installation:
 ```
-conda creative -n sraqa python=3.8
+conda create -n sraqa python=3.8
 conda activate sraqa
 conda install pytorch==1.10.2 torchvision==0.11.3 torchaudio==0.10.2 cudatoolkit=10.2 -c pytorch
 git clone https://github.com/thuml/Transfer-Learning-Library.git
