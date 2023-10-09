@@ -40,7 +40,6 @@ The SR-TEE dataset published in our paper could be downloaded [here](https://doi
 - PyTorch 1.10+
 - cudatoolkit
 - cudnn
-- OpenCV-Python
 - tlib
 ```
 
