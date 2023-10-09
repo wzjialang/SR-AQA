@@ -20,9 +20,7 @@ Fig.1 Overall architecture of the proposed Simulation-to-Real Automated Quality 
 The SR-TEE dataset published in our paper could be downloaded [here](https://doi.org/10.5522/04/23699736).
 
 ### Setup & Usage for the Code
-0. Download SR-AQA repository and SR-TEE dataset
-
-1. Unzip the SR-TEE dataset and check the structure of data folders:
+1. Unzip the dowloaded SR-TEE dataset and check the structure of data folders:
 ```
 (root folder)
 ├── TEE
