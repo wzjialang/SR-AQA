@@ -20,8 +20,9 @@ Fig.1 Overall architecture of the proposed Simulation-to-Real Automated Quality 
 The SR-TEE dataset published in our paper could be downloaded [here](https://doi.org/10.5522/04/23699736).
 
 ### Setup & Usage for the Code
+0. Download SR-AQA repository and SR-TEE dataset
 
-1. Unzip the SR-TEE file and check the structure of data folders:
+1. Unzip the SR-TEE dataset and check the structure of data folders:
 ```
 (root folder)
 ├── TEE
@@ -70,8 +71,8 @@ python main_ours.py /path/to/your/dataset \
 ```
 
 *'--fs_layer 1 1 1 0 0'* means replacing the $1- 3^{rd}$ batch normalization layers of ResNet-50 with the UFS.<br>
-*'--lambda_scl'* means the lambda for SCL loss, if '--lambda_scl' > 0, then using SCL loss.<br>
-*'--lambda_tl'* means the lambda for TL loss, if '--lambda_tl' > 0, then using TL loss.<br>
+*'--lambda_scl'* means the lambda for SCL loss, if *'--lambda_scl'* > 0, then using SCL loss.<br>
+*'--lambda_tl'* means the lambda for TL loss, if *'--lambda_tl'* > 0, then using TL loss.<br>
 *'--t_data_ratio X'* means using X-tenths of unlabeled real data for training.
 
 ## Acknowledge
