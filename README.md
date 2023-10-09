@@ -3,7 +3,8 @@
 Official PyTorch implementation for "[Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography](https://link.springer.com/chapter/10.1007/978-3-031-43996-4_15)"
 
 [2023-10-09] The code of SR-AQA model is coming soon.
-[2023-08-03] Release the SR-TEE dataset
+
+[2023-08-03] Release the SR-TEE dataset.
 
 ## Introduction
 Automated quality assessment (AQA) in transoesophageal echocardiography (TEE) contributes to accurate diagnosis and echocardiographers’ training, providing direct feedback for the development of dexterous skills. However, prior works only perform AQA on simulated TEE data due to the scarcity of real data, which lacks applicability in the real world. Considering the cost and limitations of collecting TEE data from real cases, exploiting the readily available simulated data for AQA in real-world TEE is desired. In this paper, we construct the first simulation-to-real TEE dataset, and propose a novel Simulation-to-Real network (SR-AQA) with unsupervised domain adaptation for this problem. It is based on uncertainty-aware feature stylization (UFS), incorporating style consistency learning (SCL) and task-specific learning (TL), to achieve high generalizability. Concretely, UFS estimates the uncertainty of feature statistics in the real domain and diversifies simulated images with style variants extracted from the real images, alleviating the domain gap. We enforce SCL and TL across different real-stylized variants to learn domain-invariant and task-specific representations. Experimental results demonstrate that our SR-AQA outperforms state-of-the-art methods with 3.02% and 4.37% performance gain in two AQA regression tasks, by using only 10% unlabelled real data.
