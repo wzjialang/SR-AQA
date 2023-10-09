@@ -1,6 +1,6 @@
 # Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography
 
-Official PyTorch implementation for "[Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography](https://link.springer.com/chapter/10.1007/978-3-031-43996-4_15)"
+Official PyTorch implementation for "[Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography](https://doi.org/10.1007/978-3-031-43996-4_15)".
 
 [2023-10-09] The code of SR-AQA model is coming soon.
 
@@ -16,7 +16,7 @@ Automated quality assessment (AQA) in transoesophageal echocardiography (TEE) co
 Fig.1 Overall architecture of the proposed Simulation-to-Real Automated Quality Assessment network (SR-AQA).
 
 ### Dataset
-The SR-TEE dataset published in our paper could be downloaded [here](https://doi.org/10.5522/04/23699736)
+The SR-TEE dataset published in our paper could be downloaded [here](https://doi.org/10.5522/04/23699736).
 
 ### Setup & Usage for the Code
 
@@ -38,16 +38,15 @@ The SR-TEE dataset published in our paper could be downloaded [here](https://doi
 ```
 - Python 3.8+
 - PyTorch 1.10+
-- scikit-learn
 - cudatoolkit
 - cudnn
 - OpenCV-Python
 - tlib
 ```
 
-Simple example of dependency installation:
+- Simple example of dependency installation:
 ```
-conda creative -n sraqa python=3.8.8
+conda creative -n sraqa python=3.8
 conda activate sraqa
 conda install pytorch==1.10.2 torchvision==0.11.3 torchaudio==0.10.2 cudatoolkit=10.2 -c pytorch
 git clone https://github.com/thuml/Transfer-Learning-Library.git
@@ -60,6 +59,7 @@ pip install -r requirements.txt
 ## Acknowledge
 Appreciate the work from the following repositories:
 * [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)
+* [suhyeonlee/WildNet](https://github.com/suhyeonlee/WildNet)
 
 ## Cite
 If this repository is useful for your research, please cite:
