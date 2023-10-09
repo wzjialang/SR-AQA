@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```
 
 
-## Reference
+## Acknowledge
 Appreciate the work from the following repositories:
 * [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)
 
