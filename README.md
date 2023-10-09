@@ -15,7 +15,7 @@ Automated quality assessment (AQA) in transoesophageal echocardiography (TEE) co
 
 Fig.1 Overall architecture of the proposed Simulation-to-Real Automated Quality Assessment network (SR-AQA).
 
-### Datasets
+### Dataset
 The SR-TEE dataset published in our paper could be downloaded [here](https://doi.org/10.5522/04/23699736)
 
 ### Setup & Usage for the Code
