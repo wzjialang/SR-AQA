@@ -1,4 +1,4 @@
-# Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography (MICCAI2023)
+# Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography
 This repository provides the official PyTorch implementation of the following paper:
 > [**Regressing Simulation to Real: Unsupervised Domain Adaptation for Automated Quality Assessment in Transoesophageal Echocardiography**](https://doi.org/10.1007/978-3-031-43996-4_15)<br>
 > [Jialang Xu](https://www.researchgate.net/profile/Jialang-Xu), Yueming Jin, Bruce Martin, Andrew Smith, Susan Wright, Danail Stoyanov, Evangelos Mazomenos<br>
