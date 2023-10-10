@@ -1,6 +1,7 @@
 import torch
 from torch import nn
 from network import Resnet
+from network.mynn import initialize_weights
 
 
 class DA(nn.Module):
@@ -39,7 +40,8 @@ class DA(nn.Module):
         self.head = nn.Sequential(
             nn.AdaptiveAvgPool2d(output_size=(1, 1)),
             nn.Flatten(),
-            nn.Linear(final_channel, num_classes)
+            nn.Linear(final_channel, num_classes),
+            nn.Sigmoid()
         )
 
         self.cont_proj_head = cont_proj_head
@@ -53,7 +55,9 @@ class DA(nn.Module):
                 nn.ReLU(inplace=True),  # hidden layer
                 nn.Linear(self.cont_proj_head, final_channel)
             )
-
+            initialize_weights(self.pred)
+        initialize_weights(self.head)
+        
     def forward(self, x, gts=None, x_r=None, apply_fs=False):
         # encoder
         x = self.layer0[0](x)
