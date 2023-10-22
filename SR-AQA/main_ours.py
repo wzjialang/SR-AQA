@@ -106,9 +106,13 @@ def main(args: argparse.Namespace):
         if args.task_type == 'cp_reg':
             mae, mse = validate(val_loader, net, args, [
                                 'CP'], device, None, None, None)
+            mae = 100*mae
+            mse = 10000*mse
         elif args.task_type == 'gi_reg':
             mae, mse = validate(val_loader, net, args, [
                                 'GI'], device, None, None, None)
+            mae = 4*mae
+            mse = 16*mse
                                 
         # remember best mse and save checkpoint
         print("MSE {:.8f}, MAE: {:.6f}".format(mse, mae))
