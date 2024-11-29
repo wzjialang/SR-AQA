@@ -78,8 +78,8 @@ Appreciate the work from the following repositories:
 * [thuml/Transfer-Learning-Library](https://github.com/thuml/Transfer-Learning-Library)
 * [suhyeonlee/WildNet](https://github.com/suhyeonlee/WildNet)
 
-## Cite
-If this repository is useful for your research, please cite:
+## Citation
+If you find this project useful, please consider citing:
 ```
 @InProceedings{10.1007/978-3-031-43996-4_15,
 author="Xu, Jialang
